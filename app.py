@@ -23,6 +23,13 @@ def wechat():
 
         print(f"微信签名：{signature}")
         print(f"计算签名：{hashcode}")
+        print("== 微信请求进入 ==")
+        print("参数如下：")
+        print("signature:", signature)
+        print("timestamp:", timestamp)
+        print("nonce:", nonce)
+        print("echostr:", echostr)
+
 
         if hashcode == signature:
             return echostr
