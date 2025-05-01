@@ -30,7 +30,10 @@ def wechat():
         print("timestamp:", timestamp)
         print("nonce:", nonce)
         print("echostr:", echostr)
-        
+        print("== 微信请求进来了 ==")
+        print("全部参数如下：", request.args.to_dict())
+
+
         if hashcode == signature:
             return echostr
         else:
