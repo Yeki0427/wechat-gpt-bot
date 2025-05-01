@@ -12,7 +12,7 @@ def wechat():
         timestamp = request.args.get('timestamp')
         nonce = request.args.get('nonce')
         echostr = request.args.get('echostr')
-        token = 'yeki'
+        token = 'yeki2'
         tmp_list = [token, timestamp, nonce]
         tmp_list.sort()
         tmp_str = ''.join(tmp_list)
