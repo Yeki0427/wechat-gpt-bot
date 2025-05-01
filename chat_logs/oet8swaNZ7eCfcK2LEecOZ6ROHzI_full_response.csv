@@ -1,0 +1,2 @@
+时间,回复ID,模型,状态,输出内容,temperature,top_p,max_output_tokens,工具选择,是否并行调用,截断方式,服务等级,输入token,输出token,总token,命中缓存token,reasoning token
+2025-04-30 03:35:26,resp_681129fe05b08192a711271c5ec62f970c63747b5f8072cc,gpt-4.1-nano-2025-04-14,completed,你好，很高兴见到你，今天来聊聊你的心事。你愿意告诉我，现在让你感到困扰的事情是什么吗？,1.0,1.0,200,auto,True,disabled,default,2162,34,2196,0,0

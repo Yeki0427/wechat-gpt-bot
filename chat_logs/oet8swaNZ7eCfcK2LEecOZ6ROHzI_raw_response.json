@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BSSD7eEb0nKP3yrSnXT9hvYhjAzzO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "谢谢你的信任，愿意和我一起探索。记住，每一步的尝试都是在向更好的自己靠近。无论遇到什么困难，你都不是一个人，我相信你有能力逐渐找到属于自己的节奏。祝你每一天都能有一点点的进步与平静，如果需要帮助，我都在这里陪伴你。祝福你！",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1746121325,
+  "model": "gpt-4.1-nano-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_eede8f0d45",
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 2565,
+    "total_tokens": 2648,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2432
+    }
+  }
+}
