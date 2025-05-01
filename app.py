@@ -37,5 +37,10 @@ def wechat():
             return '验证失败'
     else:
         return '暂未处理 POST'
+    
+@app.route('/test')
+def test():
+    return "服务正常！"
+
 
 # 线上环境不需要 `app.run()`，Render 会使用 gunicorn 直接调用 app 实例
